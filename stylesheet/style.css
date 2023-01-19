@@ -1,0 +1,31 @@
+body {
+    background-color: #F2F2F2;
+    margin-left: 165px;
+}
+
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 162px;
+}
+
+
+.hero__left {
+    
+    display: grid;
+    width: 457px;
+    height: 359px;
+    
+    
+}
+
+.hero__right {
+    
+    position: relative;
+    
+    width: 991.63px;
+    height: 936.92px;
+
+}
