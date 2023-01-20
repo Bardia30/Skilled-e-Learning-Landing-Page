@@ -1,31 +1,76 @@
 body {
     background-color: #F2F2F2;
     margin-left: 165px;
+    margin-right: 130px;
+    margin-top: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-
-.hero {
+header{
+    margin-top:20px;
+    margin-bottom:20px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    column-gap: 162px;
+    grid-template-columns: 555px 600px;
+    grid-template-rows: 100px;
 }
 
+.logo {
+    width: 117.17px;
+    height: 27.68px;
+    align-self: center;
+    justify-self: left;
+}
+
+
+.btn {
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    border: none;
+    
+
+}
+
+.btn-header {
+    background-color: #13183F;
+    color: white;
+    align-self: center;
+    justify-self: right;
+}
 
 .hero__left {
+    position: absolute;
+    top: 252px;
     
-    display: grid;
     width: 457px;
     height: 359px;
-    
-    
+
 }
 
 .hero__right {
-    
-    position: relative;
-    
+    position: absolute;
     width: 991.63px;
     height: 936.92px;
+    left: 784px;
+    top: -146.13px;
+}
 
+
+.courses {
+    position: absolute;
+    width: 1110px;
+    height: 748px;
+    left: 165px;
+    top: 837px;
+    
+}
+
+footer {
+    position: absolute;
+    top: 1725px;
+    margin-top: 160px;
+    display: grid;
+    grid-template-columns: repeat(3, 480px);
+    grid-template-rows: 120px;
+    background-color: #13183F;
 }
