@@ -1,76 +1,81 @@
+
+
 body {
-    background-color: #F2F2F2;
-    margin-left: 165px;
-    margin-right: 130px;
-    margin-top: 10px;
+    background-color: #F2F2F2 !important;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-header{
-    margin-top:20px;
-    margin-bottom:20px;
+.navbar {
+    margin-bottom: 50px;
+}
+    
+.container{   
+    
+
     display: grid;
-    grid-template-columns: 555px 600px;
-    grid-template-rows: 100px;
-}
-
-.logo {
-    width: 117.17px;
-    height: 27.68px;
-    align-self: center;
-    justify-self: left;
+    grid-template-columns: repeat(auto-fit, minmax(65px, 75px));
+    column-gap: 30px;
+    grid-template-rows: repeat(26, 60px);
+    row-gap: 12px;
+    width: 100%;
+    height: 100%;
 }
 
 
-.btn {
+
+.button {
     width: 167px;
     height: 56px;
     border-radius: 28px;
     border: none;
+    margin-right: 150px;
+    margin-top: 20px;
+    
     
 
 }
 
-.btn-header {
+.button-header {
     background-color: #13183F;
     color: white;
-    align-self: center;
-    justify-self: right;
-}
-
-.hero__left {
-    position: absolute;
-    top: 252px;
-    
-    width: 457px;
-    height: 359px;
-
-}
-
-.hero__right {
-    position: absolute;
-    width: 991.63px;
-    height: 936.92px;
-    left: 784px;
-    top: -146.13px;
-}
-
-
-.courses {
-    position: absolute;
-    width: 1110px;
-    height: 748px;
-    left: 165px;
-    top: 837px;
     
 }
+
+.logo {
+    width: 111.17px;
+    height: 27.68px;
+    margin-left: 200px;
+    margin-top: 20px; 
+}
+
+
 
 footer {
-    position: absolute;
-    top: 1725px;
-    margin-top: 160px;
-    display: grid;
-    grid-template-columns: repeat(3, 480px);
-    grid-template-rows: 120px;
+    
     background-color: #13183F;
+}
+
+
+
+
+.hero__left {
+    display: inline-block;
+    width: 457px;
+    height: 356px;
+    margin: auto 165px;
+    
+}
+
+
+
+
+
+.hero__right {
+    width: 991.63px;
+    height: 936.92px;
+    display: inline-block; 
+    position: relative;
+    position: relative;
+    left: 375px;
+    top: -280px;
 }
