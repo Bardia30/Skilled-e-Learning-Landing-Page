@@ -1,0 +1,45 @@
+@use './mixins' as *;
+@use './variables' as *;
+
+
+.cards-section {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0.25vh 8vw;
+    row-gap:4vw;
+    column-gap: 1.25vw;
+    margin-bottom:15vh;
+}
+
+.card {
+    width:24vw;
+    height: 36vh;
+    border-radius: 15px;
+    padding: 4vh 1.5vw 0 1.5vw;
+    background: $primary-color;
+    &--special {
+        background: $gradient-color-card;
+    }
+    &__img {
+
+    }
+    &__h2{
+        color:$primary-color;
+        font-size: 2rem;
+        font-weight: 800;
+        width:20vw;
+    }
+    &__h3{
+        color:#13183F;
+        font-weight:800;
+        font-size: 1rem;
+
+    }
+    &__p{
+
+    }
+    &__a{
+
+    }
+}
